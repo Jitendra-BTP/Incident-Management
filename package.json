@@ -20,5 +20,22 @@
   ],
   "sapux": [
     "app/incidents"
-  ]
+  ],
+  "cds": {
+    "requires": {
+      "[development]": {
+        "auth": {
+          "kind": "mocked",
+          "users": {
+            "jhony": {
+              "roles": ["support"]
+            },
+            "jitu": {
+              "roles": ["support"]
+            }
+          }
+        }
+      }
+    }
+  }
 }
